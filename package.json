@@ -1,0 +1,26 @@
+{
+  "name": "next-tailwind-themes",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./build/index.js",
+  "source": "./src/index.tsx",
+  "types": "./build/index.d.ts",
+  "module": "./build/index.modern.mjs",
+  "files": ["build"],
+  "scripts": {
+    "build": "microbundle --jsx React.createElement --compress --no-sourcemap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim-ahmed3/next-tailwind-themes.git"
+  },
+  "author": "ibrahim-ahmed3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibrahim-ahmed3/next-tailwind-themes/issues"
+  },
+  "homepage": "https://github.com/ibrahim-ahmed3/next-tailwind-themes#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.0"
+  }
+}
